@@ -1,0 +1,17 @@
+'ProgramMode:RUN
+"Lower bound"?->A
+"Upper bound"?->B
+"Strips"?->N
+"Function (in X)"?->fn1
+0->S
+(B-A)fracN->H
+For A->X To B Step H
+If X=A Or X=B
+Then S+fn1->S
+Else S+2*fn1->S
+IfEnd
+Next
+S*0.5*H->S
+SDisps"Error percent"
+Integral(fn1,A,B)->I
+((S-I)fracI)*100

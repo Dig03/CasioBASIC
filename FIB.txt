@@ -1,0 +1,15 @@
+'ProgramMode:RUN
+"Fibonacci # generator"
+0->N
+While N>-1
+"Enter index"?->N
+0->X
+1->Y
+0->Z
+While N>0
+Y->X
+Z->Y
+X+Y->Z
+N-1->N
+WhileEnd
+ZDispsWhileEnd

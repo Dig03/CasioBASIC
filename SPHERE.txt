@@ -1,0 +1,6 @@
+'ProgramMode:RUN
+"Enter radius of sphere."
+?-><r>
+"Volume:"
+4frac3pi<r>^3Disps"Surface area:"
+4pi<r>^<2>

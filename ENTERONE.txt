@@ -1,0 +1,9 @@
+'ProgramMode:RUN
+"Enter one."
+?->A
+While A<>1
+Red "No, try again."
+?->A
+WhileEnd
+Green "Woo!"
+Stop
